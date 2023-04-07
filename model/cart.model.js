@@ -4,7 +4,8 @@ const userSchema=mongoose.Schema({
     title:String,
     image:String,
     price:Number,
-    size:String,
+    count:Number,
+    discount:String,
     discounted_price:Number
 })
 
